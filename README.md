@@ -1,8 +1,10 @@
-🚀 My Learning & Exploration Journey Welcome to my coding journey repository! 🎯 This space is dedicated to documenting my progress as I explore various programming languages, technologies, and development concepts.
+🎮 Rock, Paper, Scissors Game
+A simple Rock, Paper, Scissors mini-game where you can:
+🪨 Choose Rock (0)
+📄 Choose Paper (1)
+✂ Choose Scissors (2)
 
-📌 What You'll Find Here 📂 Mini Projects – Small-scale applications and exercises to reinforce my learning. 📝 Coding Challenges – Problem-solving tasks to sharpen my logic and algorithmic thinking. 🔍 Experiments & Concepts – Testing out new ideas, frameworks, and techniques.
+🤖 The game will randomly select an option for the computer and determine the winner!
+🔄 Play Again? – After each round, you can decide whether to play another match or exit.
 
-🎯 Why This Repository Exists This repository serves as a learning archive where I can track my growth, revisit past projects, and improve my skills over time. As I continue exploring, I'll be adding more exciting projects and challenges!
-
-
-check branches >>>
+This project demonstrates basic game logic, user input handling, and looping concepts in programming.
