@@ -3,7 +3,7 @@ package org;
 import java.util.Scanner;
 
 public class Multiplication {
-    public static void multiply(){
+    public static void multiplyNumbers(){
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("first number: ");
