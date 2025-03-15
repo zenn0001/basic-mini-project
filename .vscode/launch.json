@@ -15,8 +15,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Admin/Documents/GitHub/basic-mini-project/Stack Algorithm",
-      "program": "c:/Users/Admin/Documents/GitHub/basic-mini-project/Stack Algorithm/build/Debug/outDebug",
+      "cwd": "c:/Users/Admin/Documents/GitHub/basic-mini-project/Stack Algorithm/build/Debug",
+      "program": "c:/Users/Admin/Documents/GitHub/basic-mini-project/Stack Algorithm/build/Debug/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
