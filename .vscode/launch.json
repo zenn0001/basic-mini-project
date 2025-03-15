@@ -15,8 +15,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Admin/Documents/GitHub/basic-mini-project/Stack Algorithm/build/Debug",
-      "program": "c:/Users/Admin/Documents/GitHub/basic-mini-project/Stack Algorithm/build/Debug/build/Debug/outDebug",
+      "cwd": "c:/Users/Admin/Documents/GitHub/basic-mini-project/Student Bubble sorting cpp",
+      "program": "c:/Users/Admin/Documents/GitHub/basic-mini-project/Student Bubble sorting cpp/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

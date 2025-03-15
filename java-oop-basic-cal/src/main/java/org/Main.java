@@ -25,7 +25,7 @@ public class Main {
                 break;
 
             case 3:
-                Multiplication.multiply();
+                Multiplication.multiplyNumbers();
                 break;
 
             case 4:
