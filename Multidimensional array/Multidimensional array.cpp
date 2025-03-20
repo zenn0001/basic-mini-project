@@ -2,26 +2,31 @@
 using namespace std;
 
 int main() {
-    int matrix[3][4];
-    int sum = 0;
-
-    cout << "Enter elements of the 3x3 matrix:\n";
-    for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < 4; j++) {
-            cin >> matrix[i][j];
-            sum += matrix[i][j];
+    // 3D array with 2 layers, 3 rows, and 3 columns
+    int numbers[2][3][3] = {
+        {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        },
+        {
+                {10, 11, 12},
+                {13, 14, 15},
+                {16, 17, 18}
         }
-    }
+    };
 
-    cout << endl << "The matrix is:" << endl;
-    for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < 4; j++) {
-            cout << matrix[i][j] << " ";
+    // Loop through all dimensions
+    for (int i = 0; i < 2; i++) { // Layer
+        cout << "Layer " << i + 1 << ":\n";
+        for (int j = 0; j < 3; j++) { // Row
+            for (int k = 0; k < 3; k++) { // Column
+                cout << numbers[i][j][k] << " ";
+            }
+            cout << endl;
         }
         cout << endl;
     }
-
-    cout << endl << "Sum of all elements: " << sum << endl;
 
     return 0;
 }

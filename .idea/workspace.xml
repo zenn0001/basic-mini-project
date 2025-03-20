@@ -18,13 +18,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08b34b47-3bf7-4bcb-bc22-9c2bea4a3f42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Multidimensional array/Multidimensional array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/half diamond/halfdiamond.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/half diamond/halfdiamond.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="08b34b47-3bf7-4bcb-bc22-9c2bea4a3f42" name="Changes" comment="new file included (stack-overflow, student grade management)&#10;&#10;did some practice exercises">
+      <change afterPath="$PROJECT_DIR$/.idea/basic-mini-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comelec Voting/ComelectVoting.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comelec Voting/ComelectVoting.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multidimensional array.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack Algorithm/stack-overflow.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/halfdiamond.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-overflow.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multidimensional array/Multidimensional array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Multidimensional array/Multidimensional array.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,17 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOODgO586NdaX0&quot;,
+        &quot;number&quot;: 1
+      },
+      &quot;lastSeen&quot;: 1742485510046
+    }
+  ]
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/zenn0001/basic-mini-project.git&quot;,
@@ -54,38 +70,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ File.Multidimensional array.cpp.executor": "Run",
-    "C/C++ File.halfdiamond.cpp.executor": "Run",
-    "C/C++ File.stack-overflow.cpp.executor": "Run",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Admin/Downloads/github-copilot-intellij-1.5.39-243.zip",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.ComelectVoting.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ComelectVoting.h.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Multidimensional array.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.halfdiamond.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.stack-overflow.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Downloads/github-copilot-intellij-1.5.39-243.zip&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Documents\GitHub\basic-mini-project\Stack Algorithm" />
       <recent name="C:\Users\Admin\Documents\GitHub\basic-mini-project\Student Bubble sorting cpp" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.halfdiamond.cpp">
+  <component name="RunManager" selected="C/C++ File.ComelectVoting.cpp">
+    <configuration name="ComelectVoting.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="basic-mini-project" TARGET_NAME="ComelectVoting.cpp" CONFIG_NAME="ComelectVoting.cpp">
+      <option name="sourceFile" value="Comelec Voting\ComelectVoting.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComelectVoting.h" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="basic-mini-project" TARGET_NAME="ComelectVoting.h" CONFIG_NAME="ComelectVoting.h">
+      <option name="sourceFile" value="Comelec Voting\ComelectVoting.h" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Multidimensional array.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="basic-mini-project" TARGET_NAME="Multidimensional array.cpp" CONFIG_NAME="Multidimensional array.cpp">
       <option name="sourceFile" value="Multidimensional array\Multidimensional array.cpp" />
       <method v="2">
@@ -106,9 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.ComelectVoting.cpp" />
+        <item itemvalue="C/C++ File.stack-overflow.cpp" />
         <item itemvalue="C/C++ File.halfdiamond.cpp" />
         <item itemvalue="C/C++ File.Multidimensional array.cpp" />
-        <item itemvalue="C/C++ File.stack-overflow.cpp" />
+        <item itemvalue="C/C++ File.ComelectVoting.h" />
       </list>
     </recent_temporary>
   </component>
@@ -124,8 +156,24 @@
       <workItem from="1742399690554" duration="681000" />
       <workItem from="1742479783447" duration="123000" />
       <workItem from="1742481137525" duration="1319000" />
-      <workItem from="1742482490939" duration="2197000" />
+      <workItem from="1742482490939" duration="4856000" />
+      <workItem from="1742567777274" duration="1751000" />
+      <workItem from="1742906601178" duration="11150000" />
+      <workItem from="1742918283572" duration="217000" />
+      <workItem from="1742918593118" duration="111000" />
+      <workItem from="1742918725358" duration="313000" />
+      <workItem from="1743035503289" duration="4872000" />
+      <workItem from="1743040463363" duration="8099000" />
     </task>
+    <task id="LOCAL-00001" summary="new file included (stack-overflow, student grade management)&#10;&#10;did some practice exercises">
+      <option name="closed" value="true" />
+      <created>1742484955850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742484955850</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,5 +189,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new file included (stack-overflow, student grade management)&#10;&#10;did some practice exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="new file included (stack-overflow, student grade management)&#10;&#10;did some practice exercises" />
   </component>
 </project>
